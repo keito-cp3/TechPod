@@ -21,6 +21,7 @@
 		E8C267061D1533A00075FB07 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C267031D1533A00075FB07 /* Bach.jpg */; };
 		E8C267071D1533A00075FB07 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C267041D1533A00075FB07 /* Beethoven.jpg */; };
 		E8C267081D1533A00075FB07 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C267051D1533A00075FB07 /* Pachelbel.jpg */; };
+		E8C267B81D155EB10075FB07 /* SecondaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C267B71D155EB10075FB07 /* SecondaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E8C267031D1533A00075FB07 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
 		E8C267041D1533A00075FB07 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
 		E8C267051D1533A00075FB07 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		E8C267B71D155EB10075FB07 /* SecondaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				E8C266FA1D1531C90075FB07 /* Resources 2 */,
 				E8C266A81D0B20570075FB07 /* AppDelegate.swift */,
 				E8C266AA1D0B20570075FB07 /* ViewController.swift */,
+				E8C267B71D155EB10075FB07 /* SecondaViewController.swift */,
 				E8C266AC1D0B20570075FB07 /* Main.storyboard */,
 				E8C266AF1D0B20570075FB07 /* Assets.xcassets */,
 				E8C266B11D0B20570075FB07 /* LaunchScreen.storyboard */,
@@ -310,6 +313,7 @@
 			files = (
 				E8C266AB1D0B20570075FB07 /* ViewController.swift in Sources */,
 				E8C266A91D0B20570075FB07 /* AppDelegate.swift in Sources */,
+				E8C267B81D155EB10075FB07 /* SecondaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +538,7 @@
 				E8C266CF1D0B20570075FB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8C266D01D0B20570075FB07 /* Build configuration list for PBXNativeTarget "TechPodTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +547,7 @@
 				E8C266D21D0B20570075FB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8C266D31D0B20570075FB07 /* Build configuration list for PBXNativeTarget "TechPodUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +556,7 @@
 				E8C266D51D0B20570075FB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

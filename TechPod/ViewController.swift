@@ -69,10 +69,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         audioPlayer.prepareToPlay()
         audioPlayer.play()
         
-        
-        
-        
-        
     }
 
 
